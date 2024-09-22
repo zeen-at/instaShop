@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { DM_Sans } from "next/font/google";
+// import { DM_Sans } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ReduxProvider } from "./redux/Provider";
@@ -13,7 +13,7 @@ import localFont from "next/font/local";
 // });
 
 const dmsans = localFont({
-  src: "./assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf",
+  src: "../../public/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf",
   variable: "--font-DMSans",
   weight: "100 900",
 });

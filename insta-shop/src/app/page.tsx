@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Splash, Check_Icon } from "./assets";
+import { Splash, Check_Icon } from "../../public/assets";
 import CustomButton from "./components/CustomButton";
 
 export default function Home() {

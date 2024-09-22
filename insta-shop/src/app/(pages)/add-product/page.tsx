@@ -5,7 +5,7 @@ import {
   Arrow_down_Icon,
   Check,
   More_Icon,
-} from "@/app/assets";
+} from "../../../../public/assets";
 import CustomButton from "@/app/components/CustomButton";
 import CustomInput from "@/app/components/CustomInput";
 import ReturnButton from "@/app/components/ReturnButton";

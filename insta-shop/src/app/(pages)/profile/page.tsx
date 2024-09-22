@@ -1,6 +1,6 @@
 "use client";
 
-import { Google, Ig, Tiktok } from "@/app/assets";
+import { Google, Ig, Tiktok } from "../../../../public/assets";
 import CustomButton from "@/app/components/CustomButton";
 import CustomInput from "@/app/components/CustomInput";
 import { ProgressBar2 } from "@/app/components/ProgressBar";

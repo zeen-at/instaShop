@@ -11,9 +11,13 @@ import {
   Ratings,
   Share_icon,
   Upload,
-} from "@/app/assets";
+} from "../../../../../public/assets";
 import Link from "next/link";
 import CustomButton from "@/app/components/CustomButton";
+
+
+
+
 
 const Page = () => {
   function truncateString(str: string, num: number) {

@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { IButton } from '../types'
-import { Arrow_Icon } from '../assets'
+import { Arrow_Icon } from '../../../public/assets'
 import { useRouter } from 'next/navigation'
 
 

@@ -5,13 +5,13 @@ import CustomInput from "@/app/components/CustomInput";
 import ReturnButton from "@/app/components/ReturnButton";
 import React, { useRef, useState } from "react";
 import Image from "next/image";
-import { Upload } from "@/app/assets";
+import { Upload } from "../../../../public/assets";
 import { ProgressBar3 } from "@/app/components/ProgressBar";
 import { useRouter } from "next/navigation";
 
 const Page = () => {
     const router = useRouter();
-    
+
     const fileInputRef = useRef<HTMLInputElement | null>(null);
 
     const [logo, setLogo] = useState<string | null>(null)
